@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<style>
+    body
+    {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/DelValleCity.jpg/3840px-DelValleCity.jpg');
+        background-size:cover;
+    }
 
-You can use the [editor on GitHub](https://github.com/vcastaneda218/vcastaneda218.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+    .col-md-12 
+    {
+      position: absolute;
+      top:40%;
+      text-align: center;
+    }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    .photo
+    {
+        border-radius: 6vw;
+        border: 5px solid white;
+    }
 
-### Markdown
+    h1,h2
+    {
+       color:white;
+       font-family: 'Audiowide', cursive;
+       text-shadow: 1px 1px 2px greenyellow;
+       outline-color: black;
+    }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vcastaneda218/vcastaneda218.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</style>
+</head>
+<body>
+    <div class="col-md-12">
+        <img class="photo" src="https://lh3.googleusercontent.com/ogw/ADea4I58gTCi-EcMf78-bzcEEVtZAlGUWRI3CIgzd2VJvA=s83-c-mo">
+        <br><br>
+        <h1>Victor Castañeda</h1>
+        <h2>Monterrey, N.L.</h2>
+    </div>
+</body>
+</html>
